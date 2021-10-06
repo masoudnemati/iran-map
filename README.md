@@ -8,7 +8,7 @@ An interactive map of Iran.
 
 <br/>
 
-<h2>npm</h2>
+<h3>npm</h3>
 
 ```bash
 npm i
@@ -17,7 +17,7 @@ npm start
 
 <br/>
 
-<h2>yarn</h2>
+<h3>yarn</h3>
 
 ```bash
 yarn install
