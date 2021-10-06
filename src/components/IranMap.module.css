@@ -1,0 +1,229 @@
+.container {
+  display: flex;
+  justify-content: center;
+  direction: rtl;
+  text-align: right;
+  padding: 0 0 1rem 0;
+  font-size: 11px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.show_title {
+  display: block;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 0.78em;
+  line-height: 26px;
+  border-radius: 2px;
+  opacity: 0.8;
+  z-index: 999;
+}
+
+.map {
+  position: relative;
+  display: block;
+}
+
+.map .svg {
+  position: relative;
+  height: 80vh;
+  width: auto;
+  transition: transform 2.5s ease;
+  overflow: auto;
+}
+
+.map .border path {
+  fill: #fff;
+}
+
+.province {
+  fill: #999;
+}
+
+.province_selected {
+  fill: green;
+}
+
+.map .sea path,
+.map .lake path {
+  fill: #6caed8;
+}
+
+.map .province path:hover {
+  fill: #c7414a;
+  cursor: crosshair;
+}
+
+.map .sea path:nth-child(2):hover {
+  fill: #1f79b1;
+}
+
+.map .province path:focus {
+  fill: #1bb97c;
+  outline: 0;
+}
+
+.zoom_btn {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  background: linear-gradient(90deg, #ed6292 25%, #ed5760 87.5%);
+  z-index: 9999;
+}
+
+.zoom_in::before {
+  content: "بزرگنمایی نقشه";
+  background-image: url(../assets/bx-zoom-in.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 0.7rem 1.7rem 0.7rem 0.7rem;
+}
+
+.zoom_out::before {
+  content: "کوچک‌نمایی نقشه";
+  background-image: url(../assets/bx-zoom-out.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 0.7rem 1.7rem 0.7rem 0.7rem;
+}
+
+.zoom_out {
+  position: fixed;
+  bottom: 1rem;
+  right: 5vw;
+}
+
+.cities {
+  direction: ltr;
+  position: fixed;
+  top: 15%;
+  right: 30%;
+  bottom: 5%;
+  left: 30%;
+  background-color: white;
+  border-radius: 0.7rem;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  z-index: 999999;
+}
+
+.cities p {
+  direction: rtl;
+  font-weight: bold;
+  padding-right: 5vw;
+}
+
+.cities .selected_province {
+  color: #777070;
+  font-weight: normal;
+  font-style: italic;
+  background-image: url("../assets/bx-current-location.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 1.8rem;
+}
+
+.city_label {
+  display: inline-block;
+  margin: 0.25rem 0.1rem;
+}
+
+.cities form {
+  direction: rtl;
+  padding-right: 5vw;
+  padding-bottom: 5rem;
+}
+
+.cities .select_cities_btns {
+  position: fixed;
+  bottom: 5%;
+  right: 30%;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.7rem;
+}
+
+.cities input[type="submit"],
+.cities button {
+  width: 50%;
+  margin: 0.5rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.cities input[type="submit"] {
+  padding: 0.7rem;
+  color: white;
+  background-color: #278aff;
+  border: 1px solid #278aff;
+  font-size: normal;
+  font-weight: bolder;
+}
+
+.cities button {
+  border: 1px solid darkgray;
+  font-size: normal;
+  font-weight: lighter;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.9);
+  z-index: 99999;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    direction: ltr;
+    text-align: center;
+  }
+
+  .zoom_btn {
+    display: block;
+  }
+
+  .map .svg {
+    padding-top: 1rem;
+    width: 90vw;
+    height: auto;
+  }
+
+  .map .map_zoom {
+    transform: scale(1.3);
+    width: 350%;
+    height: 120%;
+    padding: 0;
+    margin: 2rem auto 0 45%;
+  }
+
+  .cities {
+    left: 10%;
+    right: 10%;
+  }
+
+  .cities .select_cities_btns {
+    left: 10%;
+    right: 10%;
+  }
+}

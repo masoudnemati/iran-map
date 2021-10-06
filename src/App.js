@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import IranMap from "./components/IranMap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="hero">
+        <IranMap />
+      </div>
+      <style jsx>{`
+        .hero {
+          direction: rtl;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding-top: 5rem;
+        }
+        @media only screen and (max-width: 1200px) {
+          .hero {
+            direction: rtl;
+            display: flex;
+            flex-direction: column-reverse;
+          }
+        }
+      `}</style>
+    </>
   );
 }
 
