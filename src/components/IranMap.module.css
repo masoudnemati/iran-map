@@ -84,7 +84,7 @@
 }
 
 .zoom_in::before {
-  content: "بزرگنمایی نقشه";
+  content: "بزرگ نمایی نقشه";
   background-image: url(../assets/bx-zoom-in.svg);
   background-repeat: no-repeat;
   background-position: right center;
@@ -92,7 +92,7 @@
 }
 
 .zoom_out::before {
-  content: "کوچک‌نمایی نقشه";
+  content: "کوچک ‌نمایی نقشه";
   background-image: url(../assets/bx-zoom-out.svg);
   background-repeat: no-repeat;
   background-position: right center;
