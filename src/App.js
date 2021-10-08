@@ -1,10 +1,12 @@
 import IranMap from "./components/IranMap";
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <>
       <div className="hero">
         <IranMap />
+        <Footer />
       </div>
       <style jsx>{`
         .hero {
