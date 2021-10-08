@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iran-map/static/css/main.5e9c5f5b.chunk.css",
-    "main.js": "/iran-map/static/js/main.0a615a82.chunk.js",
-    "main.js.map": "/iran-map/static/js/main.0a615a82.chunk.js.map",
+    "main.js": "/iran-map/static/js/main.c0bacd04.chunk.js",
+    "main.js.map": "/iran-map/static/js/main.c0bacd04.chunk.js.map",
     "runtime-main.js": "/iran-map/static/js/runtime-main.b2b35c51.js",
     "runtime-main.js.map": "/iran-map/static/js/runtime-main.b2b35c51.js.map",
     "static/js/2.cdd15679.chunk.js": "/iran-map/static/js/2.cdd15679.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b2b35c51.js",
     "static/js/2.cdd15679.chunk.js",
     "static/css/main.5e9c5f5b.chunk.css",
-    "static/js/main.0a615a82.chunk.js"
+    "static/js/main.c0bacd04.chunk.js"
   ]
 }
