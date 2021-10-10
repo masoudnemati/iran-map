@@ -1,9 +1,8 @@
 # Iran Map
 
-This project is responsive interactive **Iran map** including province and cities name made with _React_
-[Demo](https://masoudnemati.github.io/iran-map)
+This project is responsive interactive **Iran map** including province and cities name made with _React_. [Demo](https://masoudnemati.github.io/iran-map)
 
-![https://masoudnemati.github.io/iran-map](src/assets/screenshot.png)
+![https://masoudnemati.github.io/iran-map](src/assets/screengif.gif)
 
 ### Start in Development Mode
 
