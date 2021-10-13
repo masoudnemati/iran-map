@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/iran-map/static/css/main.7ffcfc0b.chunk.css",
-    "main.js": "/iran-map/static/js/main.c1bc058e.chunk.js",
-    "main.js.map": "/iran-map/static/js/main.c1bc058e.chunk.js.map",
+    "main.css": "/iran-map/static/css/main.5a251348.chunk.css",
+    "main.js": "/iran-map/static/js/main.6f491902.chunk.js",
+    "main.js.map": "/iran-map/static/js/main.6f491902.chunk.js.map",
     "runtime-main.js": "/iran-map/static/js/runtime-main.e9f36d41.js",
     "runtime-main.js.map": "/iran-map/static/js/runtime-main.e9f36d41.js.map",
     "static/js/2.4263e753.chunk.js": "/iran-map/static/js/2.4263e753.chunk.js",
     "static/js/2.4263e753.chunk.js.map": "/iran-map/static/js/2.4263e753.chunk.js.map",
     "index.html": "/iran-map/index.html",
-    "static/css/main.7ffcfc0b.chunk.css.map": "/iran-map/static/css/main.7ffcfc0b.chunk.css.map",
+    "static/css/main.5a251348.chunk.css.map": "/iran-map/static/css/main.5a251348.chunk.css.map",
     "static/js/2.4263e753.chunk.js.LICENSE.txt": "/iran-map/static/js/2.4263e753.chunk.js.LICENSE.txt",
     "static/media/IranMap.module.css": "/iran-map/static/media/bx-zoom-out.5fce6c9d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e9f36d41.js",
     "static/js/2.4263e753.chunk.js",
-    "static/css/main.7ffcfc0b.chunk.css",
-    "static/js/main.c1bc058e.chunk.js"
+    "static/css/main.5a251348.chunk.css",
+    "static/js/main.6f491902.chunk.js"
   ]
 }
