@@ -107,7 +107,6 @@ const IranMap = () => {
             <g className={styles.province}>
               {provinces.map((province) => (
                 <path
-                  tabIndex={province.id}
                   key={province.id}
                   className={province.className}
                   d={province.d}

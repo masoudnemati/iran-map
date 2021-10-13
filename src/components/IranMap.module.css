@@ -7,6 +7,7 @@
   font-size: 11px;
   margin: 0 auto;
   overflow-x: auto;
+  padding-top: 5rem;
 }
 
 .show_title {
@@ -43,10 +44,6 @@
 
 .province {
   fill: #999;
-}
-
-.province_selected {
-  fill: green;
 }
 
 .map .sea path,
@@ -193,7 +190,7 @@
   z-index: 99999;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
   .container {
     direction: ltr;
     text-align: center;
