@@ -16,7 +16,7 @@ const Footer = () => {
           font-size: 1rem;
           line-height: 2rem;
           position: relative;
-          transition: all 0.4s linear;
+          transition: all 0.3s ease-out;
         }
 
         #forkongithub a::before,

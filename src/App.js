@@ -1,12 +1,12 @@
 import IranMap from "./components/IranMap";
-import Footer from "./components/Footer";
+import GithubLink from "./components/GithubLink";
 
 function App() {
   return (
     <>
       <div className="hero">
         <IranMap />
-        <Footer />
+        <GithubLink />
       </div>
       <style jsx>{`
         .hero {
